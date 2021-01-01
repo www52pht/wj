@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// 导入刚才编写的组件
-import AppIndex from '../components/home/AppIndex'
-import Login from '../components/Login'
+import AppIndex from '@/components/home/AppIndex'
+import Login from '@/components/Login'
+
 Vue.use(Router)
+
 export default new Router({
-  mode: 'history', //切换成history模式
+  mode: 'history',
   routes: [
-    // 下面都是固定的写法
     {
       path: '/login',
       name: 'Login',
