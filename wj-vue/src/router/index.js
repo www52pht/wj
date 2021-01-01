@@ -5,6 +5,7 @@ import AppIndex from '../components/home/AppIndex'
 import Login from '../components/Login'
 Vue.use(Router)
 export default new Router({
+  mode: 'history', //切换成history模式
   routes: [
     // 下面都是固定的写法
     {
